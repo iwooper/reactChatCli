@@ -1,0 +1,1 @@
+curl -contenttype 'application/json' -body '{"cname": "general"}' -method post http://localhost:5000/demoapp-8ef3c/us-central1/v1/channels
