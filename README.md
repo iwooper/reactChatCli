@@ -1,50 +1,27 @@
+.
+├── ./README.md
+├── ./dist
+│   ├── ./dist/img
+│   │   └── ./dist/img/avatar.png
+│   ├── ./dist/index.html
+│   └── ./dist/js
+│       ├── ./dist/js/build.js
+│       └── ./dist/js/build.js.map
+├── ./package-lock.json
+├── ./package.json
+├── ./reactChatCli참고.txt
+├── ./src
+│   ├── ./src/Routes.tsx
+│   ├── ./src/client.ts
+│   ├── ./src/components
+│   │   ├── ./src/components/MessageFeed.tsx
+│   │   └── ./src/components/MessageForm.tsx
+│   ├── ./src/containers
+│   │   ├── ./src/containers/Contents.tsx
+│   │   └── ./src/containers/LeftPanel.tsx
+│   └── ./src/index.ts
+├── ./tsconfig.json
+├── ./tslint.json
+└── ./webpack.config.js
 
-```
-react-sample-app
-├─ .git
-│  ├─ config
-│  ├─ description
-│  ├─ FETCH_HEAD
-│  ├─ HEAD
-│  ├─ hooks
-│  │  ├─ applypatch-msg.sample
-│  │  ├─ commit-msg.sample
-│  │  ├─ fsmonitor-watchman.sample
-│  │  ├─ post-update.sample
-│  │  ├─ pre-applypatch.sample
-│  │  ├─ pre-commit.sample
-│  │  ├─ pre-merge-commit.sample
-│  │  ├─ pre-push.sample
-│  │  ├─ pre-rebase.sample
-│  │  ├─ pre-receive.sample
-│  │  ├─ prepare-commit-msg.sample
-│  │  ├─ push-to-checkout.sample
-│  │  └─ update.sample
-│  ├─ info
-│  │  └─ exclude
-│  ├─ objects
-│  │  ├─ info
-│  │  └─ pack
-│  └─ refs
-│     ├─ heads
-│     └─ tags
-├─ .gitignore
-├─ dist
-│  └─ index.html
-├─ package-lock.json
-├─ package.json
-├─ src
-│  ├─ client.ts
-│  ├─ components
-│  │  ├─ ChannelList.tsx
-│  │  ├─ index.ts
-│  │  └─ MessageFeed.tsx
-│  ├─ containers
-│  │  ├─ Channel.tsx
-│  │  └─ index.ts
-│  └─ Routes.tsx
-├─ tsconfig.json
-├─ tslint.json
-└─ webpack.config.js
-
-```
+6 directories, 18 files

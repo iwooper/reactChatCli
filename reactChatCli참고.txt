@@ -1,1 +1,2 @@
-curl -contenttype 'application/json' -body '{"cname": "general"}' -method post http://localhost:5000/demoapp-8ef3c/us-central1/v1/channels
+*** Windows Powershell에서 curl 입력 테스트
+curl -contenttype 'application/json' -body '{"cname": "general"}' -method post http://localhost:5001/demoapp-8ef3c/us-central1/v1/channels
