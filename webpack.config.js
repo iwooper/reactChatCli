@@ -14,7 +14,8 @@ module.exports = [{
     output: {
         path: __dirname + "/dist/js",
         filename: 'build.js',
-        publicPath: '/dist/js',
+        //publicPath: '/dist/js',
+		publicPath: '/js',	// 웹서버에서 dist가 시작 위치임
     },
     module: {
         rules: [

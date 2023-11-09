@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
 	  "start": "set \"NODE_OPTIONS=--openssl-legacy-provider\" && webpack-dev-server --mode development --content-base ./dist --hot --inline --colors --port 3000 --open --openssl-legacy-provider",
-	  "build": "set \"NODE_OPTIONS=--openssl-legacy-provider\" && webpack --mode production",
+	  "build": "set \"NODE_OPTIONS=--openssl-legacy-provider\" && webpack --mode production --open --openssl-legacy-provider",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
